@@ -1,0 +1,6 @@
+    <disk type='file' device='disk'>
+      <driver name='qemu' type='raw'/>
+      <source file='/media/SSD/c1test.img'/>
+      <target dev='sda' bus='scsi'/>
+      <address type='drive' controller='0' bus='0' unit='0'/>
+    </disk>
